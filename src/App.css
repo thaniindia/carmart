@@ -26,3 +26,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.table-border-collapser {
+  border-collapse: collapse;
+}
+
+.table-header > th {
+  border-color: skyblue;
+  background-color: skyblue;
+}
